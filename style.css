@@ -9,15 +9,19 @@
   --fw-m: 500;
   --fw-b: 700;
 
-  --fs-2: 2rem;
+  --fs-3: 1.8rem;
+  --fs-2: 2.2rem;
   --fs-p: 1.2rem;
+  --fs-s: 1rem;
 
   --spacer: 1.2rem;
+  --spacer-sm: calc(var(--spacer) / 4);
   --spacer-md: calc(var(--spacer) * 2);
   --spacer-lg: calc(var(--spacer) * 2);
 
   /* Tokyo Night Theme */
   --bg-col: #1a1b26;
+  --bg-dark: #0f0f14;
   --primary-col: #565f89;
   --primary-light-col: #c0caf5;
   --purp: #bb9af7;
@@ -33,14 +37,23 @@
 }
 body {
   background-color: var(--bg-col);
+    font-family: var(--ff);
 }
+pre code {
+    background-color: var(--bg-dark);
+    color: var(--primary-light-col);
+    display: block;
+    padding: var(--spacer);
+    font-size: var(--fs-s);
+    
+  }
 header {
   padding: var(--spacer);
   display: grid;
   grid-template-areas:
     "A"
     "B";
-  font-family: var(--ff);
+
   color: var(--primary-col);
 }
 header h2 {
@@ -65,4 +78,28 @@ header a:hover {
   padding: var(--spacer);
   display: flex;
   justify-content: space-around;
+}
+.HTML h1{
+    text-align: center;
+    padding: var(--spacer);
+    color: #f7768e;
+}
+.HTML {
+    justify-content: center;
+    max-width: 80ch;
+    margin: 0 auto;
+}
+.container h2 {
+    color: var(--green2);
+    font-size: var(--fs-3);
+    font-weight: var(--fw-m);
+    padding: var(--spacer) 0;
+}
+.container h3{
+    color: var(--blue1);
+    font-weight: var(--fw-n);
+    padding: var(--spacer-sm) var(--spacer);
+}
+.container h3 strong {
+    color: var(--teal);
 }
