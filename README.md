@@ -5,7 +5,10 @@ Compilation of all my web dev knowledge for reference purposes
 
 open the page on the web
 
-
+## Version
+  * 0.01
+    ** Initial Layout
+    
 ### Installing
 N/A
 
