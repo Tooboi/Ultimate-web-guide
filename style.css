@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --ff: "Quicksand", sans-serif;
+
+  --fw-n: 300;
+  --fw-m: 500;
+  --fw-b: 700;
+
+  --fs-2: 2rem;
+  --fs-p: 1.2rem;
+
+  --spacer: 1.2rem;
+  --spacer-md: calc(var(--spacer) * 2);
+  --spacer-lg: calc(var(--spacer) * 2);
+
+  /* Tokyo Night Theme */
+  --bg-col: #1a1b26;
+  --primary-col: #565f89;
+  --primary-light-col: #c0caf5;
+  --purp: #bb9af7;
+  --blue1: #7aa2f7;
+  --blue2: #7dcfff;
+  --teal: #2ac3de;
+  --mint: #b4f9f8;
+  --green1: #73daca;
+  --green2: #9ece6a;
+  --orange1: #e0af68;
+  --oramge2: #ff9e64;
+  --red: #f7768e;
+}
+body {
+  background-color: var(--bg-col);
+}
+header {
+  padding: var(--spacer);
+  display: grid;
+  grid-template-areas:
+    "A"
+    "B";
+  font-family: var(--ff);
+  color: var(--primary-col);
+}
+header h2 {
+  font-size: var(--fs-2);
+  font-weight: var(--fw-m);
+  grid-area: A;
+}
+header h3 {
+  font-weight: var(--fw-b);
+  font-size: var(--fs-p);
+}
+header a {
+  color: var(--primary-col);
+  text-decoration: none;
+  transition: all ease-out 200ms;
+}
+header a:hover {
+  color: var(--red);
+}
+.header-menu {
+  grid-area: B;
+  padding: var(--spacer);
+  display: flex;
+  justify-content: space-around;
+}
