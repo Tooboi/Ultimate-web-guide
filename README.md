@@ -7,7 +7,7 @@ open the page on the web
 
 ## Version
   * 0.01
-    ** Initial Layout
+    * Initial Layout
     
 ### Installing
 N/A
