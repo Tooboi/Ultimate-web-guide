@@ -32,7 +32,7 @@
   --green1: #73daca;
   --green2: #9ece6a;
   --orange1: #e0af68;
-  --oramge2: #ff9e64;
+  --orange2: #ff9e64;
   --red: #f7768e;
 }
 body {
@@ -87,6 +87,9 @@ header a:hover {
   max-width: 80ch;
   margin: 0 auto;
 }
+.container {
+  padding-bottom: var(--spacer-md);
+}
 .container h2 {
   color: var(--green2);
   font-size: var(--fs-3);
@@ -100,4 +103,19 @@ header a:hover {
 }
 .container h3 strong {
   color: var(--teal);
+}
+.index-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: var(--orange2);
+  font-size: var(--fs-2);
+}
+.index-container h2,
+.index-container h3 {
+  font-weight: var(--fw-n);
+}
+.index-container h3 {
+  color: var(--green2);
 }
