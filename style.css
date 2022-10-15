@@ -55,7 +55,6 @@ header {
 header h2 {
   font-size: var(--fs-2);
   font-weight: var(--fw-m);
-  grid-area: A;
   display: flex;
   justify-content: left;
   margin: auto 0;
