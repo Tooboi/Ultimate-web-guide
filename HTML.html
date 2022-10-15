@@ -1,82 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Web Dev | HTML</title>
-  </head>
-  <body>
-    <header>
-      <h2>Ultimate Web Dev Guide </h2>
-      <div class="header-menu">
-        <h3><a href="HTML.html">HTML</a></h3>
-        <h3><a href="CSS.html">CSS</a></h3>
-        <h3><a href="JS.html">JS</a></h3>
-        <h3><a href="Git.html">Git</a></h3>
-      </div>
-    </header>
-    <div class="HTML">
-      <h1>HTML &lt;/&gt;</h1>
-      <div class="container">
-        <h2>Elements</h2>
-        <h3><strong>&lt;element&gt;</strong> - Open</h3>
-        <h3><strong>&lt;/element&gt;</strong> - Close</h3>
-        <h3><strong>&lt;h1&gt;</strong> - Largest heading</h3>
-        <h3><strong>&lt;h6&gt;</strong> - Smallest heading</h3>
-        <h3><strong>&lt;p&gt;</strong> - Paragraph</h3>
-        <h3><strong>&lt;body&gt;</strong> - Body of HTML document</h3>
-        <h3><strong>&lt;header&gt;</strong> - Header of document - sticks to top</h3>
-        <h3><strong>&lt;footer&gt;</strong> - Footer of document - sticks to bottom</h3>
-        <h3><strong>&lt;div&gt;</strong> - Divides the page into sections</h3>
-        <h3><strong>&lt;section&gt;</strong> - Similar to div</h3>
-        <h3><strong>&lt;head&gt;</strong> - Contains the pages metadata - before body</h3>
-        <h3><strong>&lt;button&gt;</strong> - Creates a button</h3>
-        <h2>Attributes</h2>
-        <h3>&lt;div <strong>class</strong>="nameOfClass"&gt; - Class used in CSS (.nameOfClass) 2nd most specific</h3>
-        <h3>&lt;div <strong>id</strong>="nameOfID"&gt; - ID used in CSS (#nameOfID) most specific</h3>
-        <h2>Styling Text</h2>
-        <h3><strong>&lt;em&gt;</strong> - Emphasize text (italic)</h3>
-        <h3><strong>&lt;strong&gt;</strong> - Highlight important text (bold)</h3>
-        <h2>Line Break</h2>
-        <h3><strong>&lt;br&gt;</strong> - Breaks text onto new line</h3>
-        <h2>Lists</h2>
-        <h3><strong>&lt;ul&gt;</strong> - Unordered list (bullet points)</h3>
-        <h3><strong>&lt;ol&gt;</strong> - Ordered list (numbered)</h3>
-        <h3><strong>&lt;li&gt;</strong> - List item - Nested inside &lt;ul&gt; and &lt;ol&gt;</h3>
-        <h2>Images + Video</h2>
-        <h3><strong>&lt;img src="image location.png"/&gt;</strong> - Add an image</h3>
-        <h3><strong>&lt;img src="#" alt="description of image"/&gt;</strong> - Adds hover text for accessibility</h3>
-        <h3><strong>&lt;video src="video location.mp4"/&gt;</strong> - Add a video</h3>
-        <h3><strong>&lt;video src="#" controls video not supported/&gt;</strong> - Adds play/pause controls and failed to load message</h3>
-        <h2>Links</h2>
-        <h3><strong>&lt;a href="https://www.com"&gt;Printed Text&lt;/a&gt;</strong> - Links a url or relative page</h3>
-        <h3><strong>target="_blank"</strong> - Open link in new tab or window</h3>
-        <h3>- Image link can be nested inside these links</h3>
-        <h2>Comment</h2>
-        <h3><strong>&lt;!--text--&gt;</strong> - Comment out lines of code</h3>
-        <h2>Tables</h2>
-        <h3><strong>&lt;table&gt;</strong> - Create a table element</h3>
-        <h3><strong>&lt;tr&gt;</strong> - Create a row nested in table element</h3>
-        <h3><strong>&lt;td&gt;</strong>data<strong>&lt;/td&gt;</strong> - Table data nested in table row</h3>
-        <h3>&lt;th <strong>scope="col or row"</strong>&gt; - Table heading - can accept col or row</h3>
-        <h3>&lt;td <strong>colspan="2"</strong>&gt; - Data can span columns</h3>
-        <h3>&lt;td <strong>rowspan="2"</strong>&gt; - Data can span rows</h3>
-        <h3><strong>&lt;tbody&gt;</strong> - Long tables can be sectioned off - nested in table</h3>
-        <h3><strong>&lt;thead&gt;</strong> - Create a table heading</h3>
-        <h3><strong>&lt;tfoot&gt;</strong> - Create a table footer</h3>
-        <h2>Forms</h2>
-        <h3><strong>&lt;form action="/ex.html" method="POST"&gt;</strong> - Create a form with an address to send data to</h3>
-        <h3><strong>action</strong> - Determines where info is sent</h3>
-        <h3><strong>method</strong> - Assigns POST or GET to save to server or send elsewhere respectfully</h3>
-      </div>
-    </div>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Web Dev | HTML</title>
+	</head>
+	<body>
+		<header>
+			<h2><a href="index.html">Ultimate Web Dev Guide</a></h2>
+			<div class="header-menu">
+				<h3><a href="HTML.html">HTML</a></h3>
+				<h3><a href="CSS.html">CSS</a></h3>
+				<h3><a href="JS.html">JS</a></h3>
+				<h3><a href="Git.html">Git</a></h3>
+			</div>
+		</header>
+		<div class="HTML">
+			<h1>HTML &lt;/&gt;</h1>
+			<div class="container">
+				<h2>Elements</h2>
+				<h3><strong>&lt;element&gt;</strong> - Open</h3>
+				<h3><strong>&lt;/element&gt;</strong> - Close</h3>
+				<h3><strong>&lt;h1&gt;</strong> - Largest heading</h3>
+				<h3><strong>&lt;h6&gt;</strong> - Smallest heading</h3>
+				<h3><strong>&lt;p&gt;</strong> - Paragraph</h3>
+				<h3><strong>&lt;body&gt;</strong> - Body of HTML document</h3>
+				<h3><strong>&lt;header&gt;</strong> - Header of document - sticks to top</h3>
+				<h3><strong>&lt;footer&gt;</strong> - Footer of document - sticks to bottom</h3>
+				<h3><strong>&lt;div&gt;</strong> - Divides the page into sections</h3>
+				<h3><strong>&lt;head&gt;</strong> - Contains the pages metadata - before body</h3>
+        <h3><strong>&lt;nav&gt;</strong> - Define block of navigation links like menus and table of contents</h3>
+				<h3><strong>&lt;main&gt;</strong> - Contains most of the page</h3>
+				<h3><strong>&lt;article&gt;</strong> - Holds data that makes sence on its own</h3>
+				<h3><strong>&lt;section&gt;</strong> - Defines elements such as chapters, headings, ect</h3>
+				<h3><strong>&lt;aside&gt;</strong> - Mark additional info like bibliographys, endnotes, comments - use in article</h3>
+
+				<h3><strong>&lt;button&gt;</strong> - Creates a button</h3>
+				<h2>Attributes</h2>
+				<h3>&lt;div <strong>class</strong>="nameOfClass"&gt; - Class used in CSS (.nameOfClass) 2nd most specific</h3>
+				<h3>&lt;div <strong>id</strong>="nameOfID"&gt; - ID used in CSS (#nameOfID) most specific</h3>
+				<h2>Styling Text</h2>
+				<h3><strong>&lt;em&gt;</strong> - Emphasize text (italic)</h3>
+				<h3><strong>&lt;strong&gt;</strong> - Highlight important text (bold)</h3>
+				<h2>Line Break</h2>
+				<h3><strong>&lt;br&gt;</strong> - Breaks text onto new line</h3>
+				<h2>Lists</h2>
+				<h3><strong>&lt;ul&gt;</strong> - Unordered list (bullet points)</h3>
+				<h3><strong>&lt;ol&gt;</strong> - Ordered list (numbered)</h3>
+				<h3><strong>&lt;li&gt;</strong> - List item - Nested inside &lt;ul&gt; and &lt;ol&gt;</h3>
+				<h2>Images + Video</h2>
+				<h3><strong>&lt;img src="image location.png"/&gt;</strong> - Add an image</h3>
+				<h3><strong>&lt;img src="#" alt="description of image"/&gt;</strong> - Adds hover text for accessibility</h3>
+				<h3><strong>&lt;video src="video location.mp4"/&gt;</strong> - Add a video</h3>
+				<h3><strong>&lt;video src="#" controls video not supported/&gt;</strong> - Adds play/pause controls and failed to load message</h3>
+				<h2>Links</h2>
+				<h3>
+					<strong>&lt;a href="https://www.com"&gt;Printed Text&lt;/a&gt;</strong>
+					- Links a url or relative page
+				</h3>
+				<h3><strong>target="_blank"</strong> - Open link in new tab or window</h3>
+				<h3>- Image link can be nested inside these links</h3>
+				<h2>Comment</h2>
+				<h3><strong>&lt;!--text--&gt;</strong> - Comment out lines of code</h3>
+				<h2>Tables</h2>
+				<h3><strong>&lt;table&gt;</strong> - Create a table element</h3>
+				<h3><strong>&lt;tr&gt;</strong> - Create a row nested in table element</h3>
+				<h3><strong>&lt;td&gt;</strong>data<strong>&lt;/td&gt;</strong> - Table data nested in table row</h3>
+				<h3>&lt;th <strong>scope="col or row"</strong>&gt; - Table heading - can accept col or row</h3>
+				<h3>&lt;td <strong>colspan="2"</strong>&gt; - Data can span columns</h3>
+				<h3>&lt;td <strong>rowspan="2"</strong>&gt; - Data can span rows</h3>
+				<h3><strong>&lt;tbody&gt;</strong> - Long tables can be sectioned off - nested in table</h3>
+				<h3><strong>&lt;thead&gt;</strong> - Create a table heading</h3>
+				<h2>Forms</h2>
+				<h3><strong>&lt;form action="/ex.html" method="POST"&gt;</strong> - Create a form with an address to send data to</h3>
+				<h3><strong>action</strong> - Determines where info is sent</h3>
+				<h3><strong>method</strong> - Assigns POST or GET to save to server or send elsewhere respectfully</h3>
+				<h3>
+					<strong>&lt;label&nbsp;for&nbsp;=&quot;name&quot;&gt;Label&lt;/label&gt;</strong>
+					- Label for text field - goes before text input
+				</h3>
+				<h3>
+					<strong>&lt;input&nbsp;type=&quot;text&quot;&nbsp;name=&quot;text&#45;field&quot;&gt;</strong>
+					- Text input - combines (name) with input text
+				</h3>
+				<h3><strong>type=&quot;password&quot;</strong> - Password input - replaces a-z with *</h3>
+				<h3><strong>type=&quot;number&quot;</strong> - Number input - numbers and special chars - can add (step) attribute</h3>
+				<h3><strong>type=&quot;range&quot;</strong> - Assign (min) and (max) values - accepts (step)</h3>
+				<h3><strong>type=&quot;checkbox&quot;</strong> - Checkbox input</h3>
+				<h3><strong>type=&quot;radio&quot;</strong> - Only allows one selection at a time</h3>
+        <h3><strong>type=&quot;required&quot;</strong> - Requires an input to continue</h3>
+				<h3><strong>min/maxlength=&quot;150&quot;</strong> - Sets a min or max character amount</h3>
+        <h3><strong>pattern=&quot;[A&#45;Za&#45;z]{3}&quot;&nbsp;title=&quot;Three&nbsp;letter&nbsp;country&nbsp;code&quot;&gt;</strong> - Set a pattern requirement</h3>
+				<h3><strong>&lt;textarea&gt;</strong> - Text input that allows paragraphs</h3>
+        <h3><strong>type="submit" value="send";</strong> - Submit a form</h3>
+
+				<h2>Dropdown List</h2>
+				<h3><strong>&lt;select id="#" name="#"&gt;</strong> - Populated with &lt;option value="#"&gt;</h3>
+				<h3><strong>&lt;dadalist&gt;</strong> - Adds filter options for long lists - populated with &lt;option&gt;</h3>
+			</div>
+		</div>
+	</body>
 </html>
