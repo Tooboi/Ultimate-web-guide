@@ -6,6 +6,10 @@ Compilation of all my web dev knowledge for reference purposes
 open the page on the web
 
 ## Version
+  * 0.03
+    * HTML complete
+    * CSS started
+    * Js color theme toggle
   * 0.02
     * Starting HTML page
   * 0.01
