@@ -28,17 +28,45 @@
   --blue1: #7aa2f7;
   --blue2: #7dcfff;
   --teal: #2ac3de;
-  --mint: #b4f9f8;
   --green1: #73daca;
   --green2: #9ece6a;
   --orange1: #e0af68;
   --orange2: #ff9e64;
   --red: #f7768e;
+  
+}
+.darkmode {
+  --bg-col: rgb(46, 52, 64);
+  --bg-dark: #0f0f14;
+  --primary-col: #D8DEE9;
+  --primary-light-col: #ECEFF4;
+  --purp: #C7CDDA;
+  --blue1: #B5BCCA;
+  --blue2: #929AAA;
+  --teal: #6F788A;
+  --green1: #5E677A;
+  --green2: #C7CDDA;
+  --orange1: #4C566A;
+  --orange2: #3B4252;
+  --red: #5E677A;
 }
 body {
   background-color: var(--bg-col);
   font-family: var(--ff);
 }
+button:hover {
+  color: var(--red);
+}
+button {
+  background: none;
+	color: var(--primary-col);
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
 pre code {
   background-color: var(--bg-dark);
   color: var(--primary-light-col);
@@ -80,7 +108,7 @@ header a:hover {
 .HTML h1 {
   text-align: center;
   padding: var(--spacer);
-  color: #f7768e;
+  color: var(--red);
 }
 .HTML {
   justify-content: center;
