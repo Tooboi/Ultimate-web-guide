@@ -1,64 +1,65 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 :root {
-  --ff: "Quicksand", sans-serif;
+	--ff: "Quicksand", sans-serif;
 
-  --fw-n: 300;
-  --fw-m: 500;
-  --fw-b: 700;
+	--fw-n: 300;
+	--fw-m: 500;
+	--fw-b: 700;
 
-  --fs-3: 1.8rem;
-  --fs-2: 2.2rem;
-  --fs-p: 1.2rem;
-  --fs-s: 1rem;
+	--fs-3: 1.8rem;
+	--fs-2: 2.2rem;
+	--fs-p: 1.2rem;
+	--fs-s: 1rem;
 
-  --spacer: 1.2rem;
-  --spacer-sm: calc(var(--spacer) / 4);
-  --spacer-md: calc(var(--spacer) * 2);
-  --spacer-lg: calc(var(--spacer) * 2);
+	--spacer: 1.2rem;
+	--spacer-sm: calc(var(--spacer) / 4);
+	--spacer-md: calc(var(--spacer) * 2);
+	--spacer-lg: calc(var(--spacer) * 2);
 
-  /* Tokyo Night Theme */
-  --bg-col: #1a1b26;
-  --bg-dark: #0f0f14;
-  --primary-col: #565f89;
-  --primary-light-col: #c0caf5;
-  --purp: #bb9af7;
-  --blue1: #7aa2f7;
-  --blue2: #7dcfff;
-  --teal: #2ac3de;
-  --green1: #73daca;
-  --green2: #9ece6a;
-  --orange1: #e0af68;
-  --orange2: #ff9e64;
-  --red: #f7768e;
-  
+	/* Tokyo Night Theme */
+	--bg-col: #1a1b26;
+	--bg-dark: #0f0f14;
+	--primary-col: #565f89;
+	--primary-light-col: #c0caf5;
+	--purp: #bb9af7;
+	--blue1: #7aa2f7;
+	--blue2: #7dcfff;
+	--teal: #2ac3de;
+	--green1: #73daca;
+	--green2: #9ece6a;
+	--orange1: #e0af68;
+	--orange2: #ff9e64;
+	--red: #f7768e;
+	transition: all ease-in-out 2s;
 }
 .darkmode {
-  --bg-col: rgb(46, 52, 64);
-  --bg-dark: #0f0f14;
-  --primary-col: #D8DEE9;
-  --primary-light-col: #ECEFF4;
-  --purp: #C7CDDA;
-  --blue1: #B5BCCA;
-  --blue2: #929AAA;
-  --teal: #6F788A;
-  --green1: #5E677A;
-  --green2: #C7CDDA;
-  --orange1: #4C566A;
-  --orange2: #3B4252;
-  --red: #5E677A;
+	--bg-col: rgb(46, 52, 64);
+	--bg-dark: #22272F;
+	--primary-col: #d8dee9;
+	--primary-light-col: #eceff4;
+	--purp: #c7cdda;
+	--blue1: #b5bcca;
+	--blue2: #929aaa;
+	--teal: #6f788a;
+	--green1: #5e677a;
+	--green2: #c7cdda;
+	--orange1: #4c566a;
+	--orange2: #c7cdda;
+	--red: #5e677a;
+	transition: all ease-in-out 2s;
 }
 body {
-  background-color: var(--bg-col);
-  font-family: var(--ff);
+	background-color: var(--bg-col);
+	font-family: var(--ff);
 }
 button:hover {
-  color: var(--red);
+	color: var(--red);
 }
 button {
-  background: none;
+	background: none;
 	color: var(--primary-col);
 	border: none;
 	padding: 0;
@@ -66,84 +67,102 @@ button {
 	cursor: pointer;
 	outline: inherit;
 }
-
 pre code {
-  background-color: var(--bg-dark);
-  color: var(--primary-light-col);
-  display: block;
-  padding: var(--spacer);
-  font-size: var(--fs-s);
+	background-color: var(--bg-dark);
+	color: var(--primary-light-col);
+	display: block;
+	padding: var(--spacer);
+	font-size: var(--fs-s);
 }
 header {
-  padding: var(--spacer);
-  display: flex;
-  justify-content: space-between;
-  color: var(--primary-col);
+	padding: var(--spacer);
+	display: flex;
+	justify-content: space-between;
+	color: var(--primary-col);
 }
 header h2 {
-  font-size: var(--fs-2);
-  font-weight: var(--fw-m);
-  display: flex;
-  justify-content: left;
-  margin: auto 0;
+	font-size: var(--fs-2);
+	font-weight: var(--fw-m);
+	display: flex;
+	justify-content: left;
+	margin: auto 0;
 }
 header h3 {
-  font-weight: var(--fw-b);
-  font-size: var(--fs-p);
-  padding: 0 var(--spacer);
+	font-weight: var(--fw-b);
+	font-size: var(--fs-p);
+	padding: 0 var(--spacer);
 }
 header a {
-  color: var(--primary-col);
-  text-decoration: none;
-  transition: all ease-out 200ms;
-  justify-content: center;
+	color: var(--primary-col);
+	text-decoration: none;
+	transition: all ease-out 200ms;
+	justify-content: center;
 }
 header a:hover {
-  color: var(--red);
+	color: var(--red);
 }
 .header-menu {
-  padding: var(--spacer);
-  display: flex;
+	padding: var(--spacer);
+	display: flex;
 }
 .HTML h1 {
-  text-align: center;
-  padding: var(--spacer);
-  color: var(--red);
+	text-align: center;
+	padding: var(--spacer);
+	color: var(--red);
+}
+.CSS h1 {
+	text-align: center;
+	padding: var(--spacer);
+	color: var(--green2);
 }
 .HTML {
-  justify-content: center;
-  max-width: 80ch;
-  margin: 0 auto;
+	justify-content: center;
+	max-width: 80ch;
+	margin: 0 auto;
+}
+.CSS {
+	justify-content: center;
+	max-width: 80ch;
+	margin: 0 auto;
 }
 .container {
-  padding-bottom: var(--spacer-md);
-}
-.container h2 {
-  color: var(--green2);
-  font-size: var(--fs-3);
-  font-weight: var(--fw-m);
-  padding: var(--spacer) 0;
-}
-.container h3 {
-  color: var(--blue1);
-  font-weight: var(--fw-n);
-  padding: var(--spacer-sm) var(--spacer);
-}
-.container h3 strong {
-  color: var(--teal);
-}
-.index-container {
+	padding-bottom: var(--spacer-md);
   display: flex;
   flex-direction: column;
-  text-align: center;
-  justify-content: center;
+  
+}
+.CSS .container h2 {
+  color: var(--purp);
+}
+.container h2 {
+	color: var(--green2);
+	font-size: var(--fs-3);
+	font-weight: var(--fw-m);
+	padding: var(--spacer) 0;
+}
+.container h3 {
+	color: var(--blue1);
+	font-weight: var(--fw-n);
+	padding: var(--spacer-sm) var(--spacer);
+}
+.CSS .container h3 strong {
   color: var(--orange2);
-  font-size: var(--fs-2);
+}
+.container h3 strong {
+	color: var(--teal);
+}
+.index-container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	color: var(--orange2);
+	font-size: var(--fs-2);
 }
 .index-container h2,
 .index-container h3 {
-  font-weight: var(--fw-n);
+	font-weight: var(--fw-n);
 }
 .index-container h3 {
-  color: var(--green2);
+	color: var(--green2);
 }
