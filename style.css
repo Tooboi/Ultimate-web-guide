@@ -115,12 +115,22 @@ header a:hover {
 	padding: var(--spacer);
 	color: var(--green2);
 }
+.git h1 {
+	text-align: center;
+	padding: var(--spacer);
+	color: var(--green2);
+}
 .HTML {
 	justify-content: center;
 	max-width: 80ch;
 	margin: 0 auto;
 }
 .CSS {
+	justify-content: center;
+	max-width: 80ch;
+	margin: 0 auto;
+}
+.git {
 	justify-content: center;
 	max-width: 80ch;
 	margin: 0 auto;
