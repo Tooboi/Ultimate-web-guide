@@ -33,6 +33,36 @@
 				</button>
       </div>
     </header>
+    <div class="git">
+			<h1>Git</h1>
+			<div class="container">
+				<h2>Commands</h2>
+				<h3><strong>ls</strong> - List files in working directory</h3>
+				<h3><strong>cd</strong> - Change directory followed by next directory - in one level</h3>
+				<h3><strong>cd ..</strong> - Change directory - one level out</h3>
+				<h3><strong>pwd</strong> - Print working directory</h3>
+				<h3><strong>mkdir</strong> - Make directory - makes a new folder with given name</h3>
+				<h3><strong>touch</strong> - Makes a new file with name.type</h3>
+				<h3><strong>start</strong> - Opens file</h3>
+				<h3><strong>rm -r</strong> - Permanent recursive deletion of files - beware</h3>
+				<h2>SSH</h2>
+        <h3><strong>ls -al ~/.ssh</strong> - Checks all files for existing SSH keys</h3>
+				<h3><strong>ssh-keygen -t ed25519 -C "github email"</strong> - Generate SSH key</h3>
+				<h3><strong>eval "$(ssh-agent -S)"</strong> - Add SSH key to ssh-agent</h3>
+				<h3><strong>rm -r</strong> - Permanent recursive deletion of files - beware</h3>
+        <h2>Branches</h2>
+        <h3>Branch off the main to edit code without overwriting the main code</h3>
+        <h3><strong>git checkout</strong> - Switch branch</h3>
+        <h3><strong>-b</strong> - New branch</h3>
+        <h3><strong>git checkout -b newBranchName</strong> - Format for new branch</h3>
+        <h3><strong>git status</strong> - Checks the branch against the Github page</h3>
+        <h2>Git Flow</h2>
+        <h3><strong>git add -A</strong> - Stage all(-A) files to be committed</h3>
+        <h3><strong>git commit -m "add note here"</strong> - Commit to branch - records changes made</h3>
+        <h3><strong>git pull origin main</strong> - Pulls main code to current branch - For up to date code</h3>
+        <h3><strong>git push origin branchName</strong> - Push to github</h3>
+        <h3>- Create pull request on Github</h3>
+    </div>
     <script src="darkmode.js"></script>
   </body>
 </html>
