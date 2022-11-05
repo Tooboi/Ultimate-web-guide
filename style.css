@@ -75,7 +75,6 @@ header h2 {
 	margin: auto 0;
 }
 header h3 {
-
 	font-weight: var(--fw-b);
 	font-size: var(--fs-p);
 	padding: 0 var(--spacer);
@@ -84,7 +83,6 @@ header a {
 	color: var(--primary-col);
 	text-decoration: none;
 	transition: all ease-out 200ms;
-
 }
 header a:hover {
 	color: var(--red);
@@ -95,44 +93,29 @@ header a:hover {
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-.HTML h1 {
+.HTML h1,
+.CSS h1,
+.git h1,
+.js h1 {
 	text-align: center;
 	padding: var(--spacer);
 	color: var(--red);
 }
-.CSS h1 {
-	text-align: center;
-	padding: var(--spacer);
-	color: var(--green2);
-}
-.git h1 {
-	text-align: center;
-	padding: var(--spacer);
-	color: var(--green2);
-}
-.HTML {
-	justify-content: center;
-	max-width: 80ch;
-	margin: 0 auto;
-}
-.CSS {
-	justify-content: center;
-	max-width: 80ch;
-	margin: 0 auto;
-}
-.git {
+.HTML,
+.CSS,
+.git,
+.js {
 	justify-content: center;
 	max-width: 80ch;
 	margin: 0 auto;
 }
 .container {
 	padding-bottom: var(--spacer-md);
-  display: flex;
-  flex-direction: column;
-  
+	display: flex;
+	flex-direction: column;
 }
 .CSS .container h2 {
-  color: var(--purp);
+	color: var(--purp);
 }
 .container h2 {
 	color: var(--green2);
@@ -146,7 +129,7 @@ header a:hover {
 	padding: var(--spacer-sm) var(--spacer);
 }
 .CSS .container h3 strong {
-  color: var(--orange2);
+	color: var(--orange2);
 }
 .container h3 strong {
 	color: var(--teal);
