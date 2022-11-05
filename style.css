@@ -149,7 +149,7 @@ header a:hover {
 .index-container h3 {
 	color: var(--green2);
 }
-#white {
+#bg {
 	padding: 1rem;
 	background-color: var(--orange2);
 	border-radius: 1rem;
