@@ -166,6 +166,11 @@ header a:hover {
 .index-container h3 {
 	color: var(--green2);
 }
+#white {
+	padding: 1rem;
+	background-color: var(--orange2);
+	border-radius: 1rem;
+}
 @media screen and (max-width: 768px) {
 	.header-menu {
 		flex-direction: column;
